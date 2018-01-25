@@ -6,7 +6,7 @@ using namespace std;
 
 int fib(int n){
 	if (n <= 0){
-			return 1;
+			return 0;
 	}
 	if (n == 1){
 			return 1;
@@ -39,7 +39,7 @@ long double e(int n){
 
 int main(int argc, char *argv[]){
 	if (argc == 3){
-		int n = atoi(argv[2]); //ATOI IS A THING! THIS TOOK ME FOREVER
+		int n = stoi(argv[2]); //So stoi works I guess...
 		string argument = argv[1];
 		if(argument == "-fib"){
 				cout << "Fibonacci at " << n << " is " << fib(n);
