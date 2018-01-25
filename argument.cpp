@@ -52,6 +52,6 @@ int main(int argc, char *argv[]){
 		}
 	}
 	else{
-		cout<<"Usage: Argument [-f,-p,-e] [n]";
+		cout<<"Usage: argument [-f,-p,-e] [n]";
 	}
 }
